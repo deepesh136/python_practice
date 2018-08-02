@@ -1,0 +1,3 @@
+Practicing python.
+Hard way to learn python.
+Zed A. Shaw.

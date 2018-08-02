@@ -1,0 +1,12 @@
+Building structure of skeleton:
+mkdir -p projects
+cd projects/
+mkdir skeleton
+cd skeleton
+mkdir bin NAME tests docs    ## Name can be renames as your project name
+### inside skeleton directory
+setup initial files.
+touch NAME/__init__.py
+touch tests/__init__.py
+That creates empty Python module directories we can put our code in. Then we need to create a setup.py file we can use to install our project later if we want.Edit setup.py file so that it has your contact information and is ready to go for when you copy it. Finally you will want a simple esting setup : nosetests on terminal skeleton file for tests named tests/NAME_tests.py
+t
